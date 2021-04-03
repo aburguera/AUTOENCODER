@@ -31,9 +31,7 @@ from utils import get_filenames
 # PARAMETERS
 ###############################################################################
 
-# Model input shape. Must coincide with the one in the datagenerators. Please
-# note that datagenerators do not use this parameter to avoid resizing images.
-# If this parameter changes, make sure to use it also in the data generators.
+# Model input shape.
 MODEL_INPUT_SHAPE=(64,64,3)
 
 # List of model filters to train/evalyate. See AutoModel to understand how
